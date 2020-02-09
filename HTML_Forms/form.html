@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Assignment</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form>
+        <div class="name-div">
+            <label for="first-name">First Name: </label>
+            <input type="text" name="nameInput" id="first-name" placeholder="John" required>
+            <label for="last-name">Last Name: </label>
+            <input type="text" name="nameInput" id="last-name" placeholder="Smith" required>
+        </div>
+
+        <div class="gender-div">
+            <label for="male-button">Male </label>
+            <input type="radio" name="genderInput" id="male-button">
+            <label for="female-button">Female </label>
+            <input type="radio" name="genderInput" id="female-button">
+            <label for="other-button">Other </label>
+            <input type="radio" name="genderInput" id="other-button">
+        </div>
+
+        <div class="email-pass-div">
+            <label for="email-input">Email: </label>
+            <input type="email" name="validation" id="email-input" required>
+            <label for="password-input">Password: </label>
+            <input type="password" name="validation" id="password-input" minlength="5" maxlength="10" required>
+        </div>
+
+        <div class="birthday-div">
+            <label>Birthday:
+                <select name="month">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <select name="day">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select name="year">
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                </select> 
+            </label>
+        </div>
+
+        <div class="terms-div">
+            <label for="terms-check">I agree to the terms and conditions</label>
+            <input type="checkbox" name="termsBox" id="terms-check" required>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
